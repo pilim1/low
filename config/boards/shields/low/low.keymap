@@ -12,9 +12,9 @@
 
         default_layer {
             bindings = <
-                &bt BT_CLR 
+                &kp K_SLEEP 
             >;
-            sensor-bindings = <&inc_dec_kp UP DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOLUME_DOWN>;
         };
     };
 };
